@@ -1,0 +1,55 @@
+{
+  "version": "0.0.1",
+  "region": "Kanton XYZ",
+  "description": "Scenarios for running the optimization model.",
+  "scenarios": {
+    "A": {
+      "at_least_one_student": false,
+      "berufsgattung": {
+        "Betreuungsberufe": {
+          "consider": true,
+          "stadt_zuerich_as_one": false,
+          "number": 20
+        },
+        "Detailhandelsberufe": {
+          "consider": true,
+          "stadt_zuerich_as_one": false,
+          "number": 70
+        }
+      },
+      "scenario_with_student_numbers": "scenario_a"
+    },
+    "B": {
+      "at_least_one_student": true,
+      "berufsgattung": {
+        "Betreuungsberufe": {
+          "consider": true,
+          "stadt_zuerich_as_one": false,
+          "number": 15
+        },
+        "Detailhandelsberufe": {
+          "consider": true,
+          "stadt_zuerich_as_one": false,
+          "number": 40
+        }
+      },
+      "scenario_with_student_numbers": "scenario_b"
+    },
+    "C": {
+      "at_least_one_student": false,
+      "berufsgattung": {
+        "Betreuungsberufe": {
+          "consider": true,
+          "stadt_zuerich_as_one": false,
+          "number": 10
+        },
+        "Detailhandelsberufe": {
+          "consider": true,
+          "stadt_zuerich_as_one": false,
+          "number": 30
+        }
+      },
+      "scenario_with_student_numbers": "scenario_c"
+    }
+  }
+}
