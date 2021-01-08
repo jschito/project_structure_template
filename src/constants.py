@@ -12,6 +12,7 @@ __status__ = "Development"
 
 import os
 import json
+import helper
 
 
 # ----- STRUCTURE DEFINITION
@@ -20,6 +21,13 @@ src_dir = os.path.dirname(__file__)
 root_dir = os.path.dirname(src_dir)
 res_dir = os.path.join(root_dir, 'res')
 output_dir = os.path.join(root_dir, 'output')
+doc_dir = os.path.join(root_dir, 'doc')
+
+# Checks, whether the required directories exist. In case they would not exist, it would create them.
+helper.ensure_directory_exists(res_dir)
+helper.ensure_directory_exists(doc_dir)
+helper.ensure_directory_exists(output_dir)
+
 
 # Define important files
 scenario_json = os.path.join(res_dir, 'scenario.json')

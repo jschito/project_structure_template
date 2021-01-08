@@ -17,7 +17,7 @@ import constants as const
 
 def ensure_directory_exists(directory):
     """
-    Creates directory if it doesn't exist yet. If it exists if does nothing unless the error is something else.
+    Creates directory if it does not exist yet. If it exists if does nothing unless the error is something else.
 
     Parameters
     ----------
