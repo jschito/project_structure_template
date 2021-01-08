@@ -1,4 +1,4 @@
-# Mein Projekt
+# Beispiel für eine Ordner- und Datenstruktur für ein GIS-Projekt
 
 ## Kurzbeschreibung
 In diesem Beispiel werden die Werte eines JSON-Files geladen und in ein CSV geschrieben. All dies hängt davon ab, ob man als Argument das Szenario "A", "B" oder "C" eingibt. 
